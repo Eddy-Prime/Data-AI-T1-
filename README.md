@@ -1,32 +1,5 @@
 # Data & AI Starter Workspace
 
-This repository is scaffolded for the outcomes you highlighted:
-
-- **DAI-04 (purple):** ETL data pipeline (script-driven, reproducible)
-- **DAI-07 (orange):** Supervised model training and evaluation
-- **DAI-08 (orange):** Unsupervised model training and interpretation
-- **DAI-10 (dark green):** Deploy ML model via FastAPI
-- **DAI-12 (dark green):** Hypothesis testing workflow
-- **DAI-14 (dark green):** LLM API integration starter
-
-## Project structure
-
-```text
-src/data_ai/
-  api/main.py                  # FastAPI app for model inference
-  llm/feature_stub.py          # LLM integration starter
-  ml/supervised.py             # DAI-07
-  ml/unsupervised.py           # DAI-08
-  pipelines/etl.py             # DAI-04
-  stats/hypothesis_test.py     # DAI-12
-scripts/
-  run_etl.py
-  train_supervised.py
-  train_unsupervised.py
-  run_hypothesis_test.py
-tests/
-```
-
 ## Quick start
 
 1. Create and activate a virtual environment.
