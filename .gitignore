@@ -10,3 +10,7 @@ data/raw/
 data/processed/
 artifacts/models/
 artifacts/reports/
+
+# Supervised model incomplete until both cars' data is available
+src/data_ai/ml/supervised.ipynb
+
