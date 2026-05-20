@@ -29,11 +29,3 @@ uvicorn src.data_ai.api.main:app --reload
 ```bash
 python3 -m pytest -q
 ```
-
-## Suggested task split for you
-
-- Start with **`src/data_ai/pipelines/etl.py`** and improve data quality rules / transformations.
-- Then iterate in **`src/data_ai/ml/supervised.py`** and **`src/data_ai/ml/unsupervised.py`** with better feature engineering, model choices, and metrics.
-- Deploy/extend inference in **`src/data_ai/api/main.py`**.
-- Add deeper stats methodology in **`src/data_ai/stats/hypothesis_test.py`**.
-- Implement a real product feature in **`src/data_ai/llm/feature_stub.py`**.
